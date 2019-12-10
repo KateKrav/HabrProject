@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One|Roboto+Condensed&display=swap');
+
+html {
+    font-family: 'Lilita One', cursive;
+    /*font-family: 'Roboto Condensed', sans-serif;*/
+}
 
 :root {
     font-size: 0.75em;
 }
+
 body{
     margin:0;
     padding:0;
-
 }
 img{
     height: 15px;
@@ -18,12 +24,13 @@ img{
 
 }
 .top{
-    font-family:'Titillium Web', sans-serif;
+    font-family: sans-serif;
     font-size: 14px;
 }
 .top ul {
     list-style: none;
     display: flex;
+    flex-direction: row;
     margin: 0;
 }
 .top a{
@@ -49,35 +56,50 @@ img{
 .left_A{
     color:deepskyblue;
 }
-.conteiner {
+.container {
     height: 70px;
     /*background: #64909b;*/
     /*width: 900px;*/
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     border-bottom: 1px solid #ccc;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    /*display: flex;*/
+    /*flex-direction: row;*/
+
+}
+
+.navBar a, .navBar img{
+    vertical-align: middle;
+}
+
+.navBar{
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
 }
-.navtop{
-    /*width: 900px;*/
-    margin: 0 auto;
-    display:inline-block;
-    flex-direction: row;
-
-}
-.navtop a{
+.navBar a{
     margin-top: 10px;
     padding: 15px;
     text-decoration: none;
     font-family:'Titillium Web', sans-serif;
     font-size: 14px;
 }
+
+.logotype{
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+.block{
+    align-items: flex-end;
+    padding-right: 1em;
+}
+
 #logo{
     color: black;
     font-size:50px;
     font-weight: bolder;
-    margin: auto;
+    /*margin: auto;*/
 
 }
 .icon{
@@ -86,24 +108,32 @@ img{
 }
 .bootom_W{
     border:1px solid dimgray;
-    height: 15px;
-    width: 25px;
     border-radius: 2px;
 }
 .bootom_Z{
     background-color: #62a4c6;
     border:1px solid dimgray;
-    height: 15px;
-    width: 25px;
     border-radius: 2px;
 }
 #check{
     color: aliceblue;
-
+    margin-left: 40px;
+    margin-top: 35px;
 }
 .more_content{
     display: block;
     margin: 0 auto;
+}
+.crumbs {
+    display:flex;
+    flex-direction:row;
+    list-style:none;
 
-
+}
+.crumbs a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    color: dimgray;
+    font-family:'Titillium Web', sans-serif;
 }
