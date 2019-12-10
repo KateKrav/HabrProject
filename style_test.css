@@ -1,0 +1,109 @@
+
+:root {
+    font-size: 0.75em;
+}
+body{
+    margin:0;
+    padding:0;
+
+}
+img{
+    height: 15px;
+}
+.header{
+    height: 30px;
+    background:#F2F2F2;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+
+}
+.top{
+    font-family:'Titillium Web', sans-serif;
+    font-size: 14px;
+}
+.top ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+.top a{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+.first{
+    color:black;
+}
+.else{
+    color: rgba(46, 179, 185, 0.93);
+}
+.left_G{
+    color: dimgray;
+}
+.left_B{
+    color: blueviolet;
+}
+.left_Z{
+    color: #00ac00;
+}
+.left_A{
+    color:deepskyblue;
+}
+.conteiner {
+    height: 70px;
+    /*background: #64909b;*/
+    /*width: 900px;*/
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: row;
+}
+.navtop{
+    /*width: 900px;*/
+    margin: 0 auto;
+    display:inline-block;
+    flex-direction: row;
+
+}
+.navtop a{
+    margin-top: 10px;
+    padding: 15px;
+    text-decoration: none;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 14px;
+}
+#logo{
+    color: black;
+    font-size:50px;
+    font-weight: bolder;
+    margin: auto;
+
+}
+.icon{
+    margin: 10px;
+    padding: auto;
+}
+.bootom_W{
+    border:1px solid dimgray;
+    height: 15px;
+    width: 25px;
+    border-radius: 2px;
+}
+.bootom_Z{
+    background-color: #62a4c6;
+    border:1px solid dimgray;
+    height: 15px;
+    width: 25px;
+    border-radius: 2px;
+}
+#check{
+    color: aliceblue;
+
+}
+.more_content{
+    display: block;
+    margin: 0 auto;
+
+
+}
