@@ -6,8 +6,7 @@
     <title>KTest</title>
 
 </head>
-<body>
-<div class="header">
+<header>
     <div class="top">
         <ul>
             <li><a href="/" class="first">Хабр</a></li>
@@ -15,46 +14,54 @@
             <li><a href="google.com" class="else">Тостер</a></li>
             <li><a href="google.com" class="else">Мой круг</a></li>
             <li><a href="google.com" class="else">Фрипансим</a></li>
-            <ul  class="left">
-                <li><a href="/" class="left_G">Мегапосты</a></li>
-                <li><a href="/" class="left_B">Миллиарды</a></li>
-                <li><a href="/" class="left_Z">Developer/Tester-квест</a></li>
-                <li><a href="/" class="left_A">Я бы в продакты пошел</a></li></ul>
-
+            <li>
+                <ul class="left">
+                    <li><a href="/" class="left_G">Мегапосты</a></li>
+                    <li><a href="/" class="left_B">Миллиарды</a></li>
+                    <li><a href="/" class="left_Z">Developer/Tester-квест</a></li>
+                    <li><a href="/" class="left_A">Я бы в продакты пошел</a></li>
+                </ul>
+            </li>
 
         </ul>
     </div>
-</div>
+</header>
+<body>
 
-    <div class="container">
-        <nav class="navBar">
-            <div class="logotype"><a href="/" id="logo">habr</a>
+<div class="container">
+    <nav class="navBar">
+        <div class="logotype"><a href="/" id="logo">habr</a>
             <a href="/" class="bar">Публикации</a>
             <a href="/" class="bar">Новости</a>
             <a href="/" class="bar">Пользователи</a>
             <a href="/" class="bar">Компании</a>
             <a href="/" class="bar">Стать автором</a>
-            </div>
-                <div class="block">
-                    <img src="img/daun.png" class="icon" alt="/">
-                    <img src="img/noun.png" class="icon" alt="/">
-                    <form>
-                        <a href="/" id="come" ><input type="button" value="Войти"></a>
-                        <a href="/" id="check"><input type="button" value="Регистрация"></a>
-                    </form>
-                </div>
-</nav>
+        </div>
+        <div class="block">
+            <img src="img/daun.png" class="icon" alt="/">
+            <img src="img/noun.png" class="icon" alt="/">
+            <form>
+                <a href="/" id="come"><input type="button" value="Войти"></a>
+                <a href="/" id="check"><input type="button" value="Регистрация"></a>
+            </form>
+        </div>
+    </nav>
 </div>
 
+<main>
+    <div class="more_content">
 
-<div class="more_content">
-    <main class="main">
         <div class="posts">
-            <img src="img/cat5.jpg" alt="/">
+            <img src="img/cat5.jpg" alt="/" class="avatar">
             <p>Jirniyc@t17</p>
-            <p><date>2019.10.04</date></p>
-            <p><time>в 18:11</time></p></div>
-        <div><h1>Задачи с собиседованний(front-end)</h1></div>
+            <p>
+                <date>2019.10.04</date>
+            </p>
+            <p>
+                <time>в 18:11</time>
+            </p>
+        </div>
+        <div><h1>Задачи с собеседованний(front-end)</h1></div>
         <ul class="crumbs">
             <li><a href="/">JavaScript,</a></li>
             <li><a href="/">Учебный процес в IT,</a></li>
@@ -66,14 +73,16 @@
             о собеседованиях, начинают ломаться копья.
             Хочу тоже внести свой вклад и поделиться
             накопившейся коллекцией вопросов. Прошу.
-          </p>
-        <p>  <b>СОВЕТ:</b>
+        </p>
+        <p><b>СОВЕТ:</b>
             Если сомневаетесь, используйте единицы rem для размера шрифта, px
             — для границ и единицы em — для большинства других свойств.</p>
         <img class="picture" src="img/cat5.jpg" alt="/">
-    </main>
-    <aside class="sidebar">
 
-    </aside></div>
+        <aside class="sidebar">
+
+        </aside>
+    </div>
+</main>
 </body>
 </html>
