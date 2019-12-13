@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+}
+p {
+    text-decoration: none;
+}
+html {
+    font-size: 16px;
+    font-family: Helvetica,
+    sans-serif, Segoe UI Emoji,
+    Segoe UI Symbol;;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #24292d;
+    display: flex;
+
+
+}
+
+.logo img {
+    width: 2em;
+    padding: 0.4em 0 0 0.4em;
+    margin: .1em;
+    align-content: center;
+}
+.header_nav {
+    margin: 1.1em;
+    flex-grow: 1;
+}
+
+.header_nav a {
+    color: #ffffff;
+    margin:.2em ;
+
+}
+.header_nav_search_record {
+    align-content: flex-end;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+.header_nav_search_record a{
+    margin:  .2em;
+    padding: .2em;
+}
+
+.placeholder_styleCSS{
+    padding: 10px;
+    height: 35px;
+    border-radius: 1px;
+    background-color: #404549;
+    border: none;
+}
+
+
+@media screen and (max-width: 1434px){
+    body
+}
